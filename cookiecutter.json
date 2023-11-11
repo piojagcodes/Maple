@@ -1,0 +1,28 @@
+{
+  "full_name": "Piotr Jagiello",
+  "github_username": "piojagcodes",
+  "app_name": "mygolangproject",
+  "project_short_description": "A Golang project.",
+  "docker_hub_username": "piojag",
+  "docker_image": "piojag/alpine-base-image:latest",
+  "docker_build_image": "piojag/alpine-golang-buildimage",
+  "docker_build_image_version": [
+    "1.13",
+    "1.12.9",
+    "1.11.9"
+  ],
+  "go_mod_or_dep": [
+    "mod",
+    "dep"
+  ],
+  "use_docker": "y",
+  "use_git": "y",
+  "use_logrus_logging": "y",
+  "use_viper_config": "y",
+  "use_cobra_cmd": "y",
+  "use_ci": [
+    "travis",
+    "circle",
+    "none"
+  ]
+}
